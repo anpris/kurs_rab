@@ -1,0 +1,42 @@
+\begin{theindex}
+
+  \item {authenticate}
+    \subitem {ServerInteraction}, \hyperpage{9}
+
+  \indexspace
+
+  \item {Cons\_fix}, \hyperpage{7}
+
+  \indexspace
+
+  \item {ExceptionManager}, \hyperpage{7}
+
+  \indexspace
+
+  \item {getLoginAndPassword}
+    \subitem {ServerInteraction}, \hyperpage{9}
+
+  \indexspace
+
+  \item {main.cpp}, \hyperpage{11}
+
+  \indexspace
+
+  \item {perform\_server\_interaction}
+    \subitem {ServerInteraction}, \hyperpage{9}
+
+  \indexspace
+
+  \item {read\_vector\_in\_file}
+    \subitem {ServerInteraction}, \hyperpage{9}
+
+  \indexspace
+
+  \item {ServerInteraction}, \hyperpage{8}
+    \subitem {authenticate}, \hyperpage{9}
+    \subitem {getLoginAndPassword}, \hyperpage{9}
+    \subitem {perform\_server\_interaction}, \hyperpage{9}
+    \subitem {read\_vector\_in\_file}, \hyperpage{9}
+  \item {ServerInteraction.cpp}, \hyperpage{11}
+
+\end{theindex}

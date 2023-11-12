@@ -1,0 +1,139 @@
+\hypertarget{classServerInteraction}{}\doxysection{Класс Server\+Interaction}
+\label{classServerInteraction}\index{ServerInteraction@{ServerInteraction}}
+
+
+Класс взаимодействия с сервером  
+
+
+
+
+{\ttfamily \#include $<$Server\+Interaction.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classServerInteraction_a8b53a531256b8fdac58b82c4d71ce736}\label{classServerInteraction_a8b53a531256b8fdac58b82c4d71ce736}} 
+void \mbox{\hyperlink{classServerInteraction_a8b53a531256b8fdac58b82c4d71ce736}{Set\+Server\+Address}} (int address)
+\begin{DoxyCompactList}\small\item\em Сеттер для параметра server\+Address\+\_\+. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classServerInteraction_a2a76c09b1c04e7d3cb7dc122b1c01811}\label{classServerInteraction_a2a76c09b1c04e7d3cb7dc122b1c01811}} 
+void \mbox{\hyperlink{classServerInteraction_a2a76c09b1c04e7d3cb7dc122b1c01811}{Set\+Server\+Port}} (int port)
+\begin{DoxyCompactList}\small\item\em Сеттер для параметра server\+Port\+\_\+. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classServerInteraction_a18fa067b98693459324b95f1f17e1da2}\label{classServerInteraction_a18fa067b98693459324b95f1f17e1da2}} 
+void \mbox{\hyperlink{classServerInteraction_a18fa067b98693459324b95f1f17e1da2}{Set\+Vector\+Data\+File}} (const std\+::string \&filename)
+\begin{DoxyCompactList}\small\item\em Сеттер для параметра vector\+Data\+File\+\_\+. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classServerInteraction_a9619412f440663e041796cafe8095873}\label{classServerInteraction_a9619412f440663e041796cafe8095873}} 
+void \mbox{\hyperlink{classServerInteraction_a9619412f440663e041796cafe8095873}{Set\+Result\+File}} (const std\+::string \&filename)
+\begin{DoxyCompactList}\small\item\em Сеттер для параметра result\+File\+\_\+. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classServerInteraction_a3897dee0aeb5ee867833e9b9d78ffadf}\label{classServerInteraction_a3897dee0aeb5ee867833e9b9d78ffadf}} 
+void \mbox{\hyperlink{classServerInteraction_a3897dee0aeb5ee867833e9b9d78ffadf}{Set\+Client\+Auth\+File}} (const std\+::string \&filename)
+\begin{DoxyCompactList}\small\item\em Сеттер для параметра client\+Auth\+File\+\_\+. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classServerInteraction_ade45df2f162d949937317dcbfcfb0c9a}\label{classServerInteraction_ade45df2f162d949937317dcbfcfb0c9a}} 
+int \mbox{\hyperlink{classServerInteraction_ade45df2f162d949937317dcbfcfb0c9a}{Get\+Server\+Address}} () const
+\begin{DoxyCompactList}\small\item\em Геттер для параметра server\+Address\+\_\+. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classServerInteraction_a6d765c636f307f84d88f282894a724fc}\label{classServerInteraction_a6d765c636f307f84d88f282894a724fc}} 
+int \mbox{\hyperlink{classServerInteraction_a6d765c636f307f84d88f282894a724fc}{Get\+Server\+Port}} () const
+\begin{DoxyCompactList}\small\item\em Геттер для параметра server\+Port\+\_\+. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classServerInteraction_aa12947738dcbcb523a939380621299f3}\label{classServerInteraction_aa12947738dcbcb523a939380621299f3}} 
+std\+::string \& \mbox{\hyperlink{classServerInteraction_aa12947738dcbcb523a939380621299f3}{Get\+Vector\+Data\+File}} ()
+\begin{DoxyCompactList}\small\item\em Геттер для параметра vector\+Data\+File\+\_\+. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classServerInteraction_acc0e9f8ca538c2b4fe6ed51e77376bec}\label{classServerInteraction_acc0e9f8ca538c2b4fe6ed51e77376bec}} 
+std\+::string \& \mbox{\hyperlink{classServerInteraction_acc0e9f8ca538c2b4fe6ed51e77376bec}{Get\+Result\+File}} ()
+\begin{DoxyCompactList}\small\item\em Геттер для параметра result\+File\+\_\+. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classServerInteraction_aa8ee6d4bb4bec96cedaffd73d33cdb72}\label{classServerInteraction_aa8ee6d4bb4bec96cedaffd73d33cdb72}} 
+std\+::string \& \mbox{\hyperlink{classServerInteraction_aa8ee6d4bb4bec96cedaffd73d33cdb72}{Get\+Client\+Auth\+File}} ()
+\begin{DoxyCompactList}\small\item\em Геттер для параметра client\+Auth\+File\+\_\+. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classServerInteraction_af12265fb7977c14a055e58dfba475261}{authenticate}} (int sock, string username, string password)
+\begin{DoxyCompactList}\small\item\em Функция для взаимодействия с сервером \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classServerInteraction_a8f28a7ed78239876a1429adab07e57af}\label{classServerInteraction_a8f28a7ed78239876a1429adab07e57af}} 
+int \mbox{\hyperlink{classServerInteraction_a8f28a7ed78239876a1429adab07e57af}{send\+\_\+data}} (int sock)
+\begin{DoxyCompactList}\small\item\em Функция для отправки на сервер векторов и записи результатов в файл \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classServerInteraction_a3d73b80f0efffd25312b25b229b49cb5}\label{classServerInteraction_a3d73b80f0efffd25312b25b229b49cb5}} 
+int \mbox{\hyperlink{classServerInteraction_a3d73b80f0efffd25312b25b229b49cb5}{write\+\_\+results\+\_\+to\+\_\+file}} (const std\+::vector$<$ double $>$ \&vectors)
+\begin{DoxyCompactList}\small\item\em Функция для сохранения результатов вычислений на сервер \end{DoxyCompactList}\item 
+vector$<$ std\+::vector$<$ double $>$ $>$ \mbox{\hyperlink{classServerInteraction_a5198190fc2f6f801e579ffc93b5a6360}{read\+\_\+vector\+\_\+in\+\_\+file}} ()
+\begin{DoxyCompactList}\small\item\em Функция для чтения векторов из файла \end{DoxyCompactList}\item 
+pair$<$ std\+::string, std\+::string $>$ \mbox{\hyperlink{classServerInteraction_a04a7117d24d34e8780ca9808921f1e7b}{get\+Login\+And\+Password}} ()
+\begin{DoxyCompactList}\small\item\em Функция извлечение логина и пароля \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classServerInteraction_a56d7e7649109ae12fb6513aa4b8f13a3}{perform\+\_\+server\+\_\+interaction}} ()
+\begin{DoxyCompactList}\small\item\em Функция для взаимодействия с сервером \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс взаимодействия с сервером 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em server\+Address\+\_\+} & Адрес сервера \\
+\hline
+{\em server\+Port\+\_\+} & Порт сервера \\
+\hline
+{\em vector\+Data\+File\+\_\+} & Имя файла с векторами \\
+\hline
+{\em result\+File\+\_\+} & Имя файла с результатами \\
+\hline
+{\em client\+Auth\+File\+\_\+} & Имя файла с логином и паролем клиента \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{classServerInteraction_af12265fb7977c14a055e58dfba475261}\label{classServerInteraction_af12265fb7977c14a055e58dfba475261}} 
+\index{ServerInteraction@{ServerInteraction}!authenticate@{authenticate}}
+\index{authenticate@{authenticate}!ServerInteraction@{ServerInteraction}}
+\doxysubsubsection{\texorpdfstring{authenticate()}{authenticate()}}
+{\footnotesize\ttfamily int Server\+Interaction\+::authenticate (\begin{DoxyParamCaption}\item[{int}]{sock,  }\item[{string}]{login,  }\item[{string}]{password }\end{DoxyParamCaption})}
+
+
+
+Функция для взаимодействия с сервером 
+
+\begin{DoxyReturn}{Возвращает}
+Возвращает 0 в случае успешной аутентификации клианта на сервере, иначе тип ошибки 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classServerInteraction_a04a7117d24d34e8780ca9808921f1e7b}\label{classServerInteraction_a04a7117d24d34e8780ca9808921f1e7b}} 
+\index{ServerInteraction@{ServerInteraction}!getLoginAndPassword@{getLoginAndPassword}}
+\index{getLoginAndPassword@{getLoginAndPassword}!ServerInteraction@{ServerInteraction}}
+\doxysubsubsection{\texorpdfstring{getLoginAndPassword()}{getLoginAndPassword()}}
+{\footnotesize\ttfamily std\+::pair$<$ std\+::string, std\+::string $>$ Server\+Interaction\+::get\+Login\+And\+Password (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Функция извлечение логина и пароля 
+
+\begin{DoxyReturn}{Возвращает}
+упорядоченную пару значений типа string, string соответствующих логину и паролю 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classServerInteraction_a56d7e7649109ae12fb6513aa4b8f13a3}\label{classServerInteraction_a56d7e7649109ae12fb6513aa4b8f13a3}} 
+\index{ServerInteraction@{ServerInteraction}!perform\_server\_interaction@{perform\_server\_interaction}}
+\index{perform\_server\_interaction@{perform\_server\_interaction}!ServerInteraction@{ServerInteraction}}
+\doxysubsubsection{\texorpdfstring{perform\_server\_interaction()}{perform\_server\_interaction()}}
+{\footnotesize\ttfamily int Server\+Interaction\+::perform\+\_\+server\+\_\+interaction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Функция для взаимодействия с сервером 
+
+
+\begin{DoxyExceptions}{Исключения}
+{\em \mbox{\hyperlink{classExceptionManager}{Exception\+Manager}}} & при возникновении ошибки \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classServerInteraction_a5198190fc2f6f801e579ffc93b5a6360}\label{classServerInteraction_a5198190fc2f6f801e579ffc93b5a6360}} 
+\index{ServerInteraction@{ServerInteraction}!read\_vector\_in\_file@{read\_vector\_in\_file}}
+\index{read\_vector\_in\_file@{read\_vector\_in\_file}!ServerInteraction@{ServerInteraction}}
+\doxysubsubsection{\texorpdfstring{read\_vector\_in\_file()}{read\_vector\_in\_file()}}
+{\footnotesize\ttfamily vector$<$ std\+::vector$<$ double $>$ $>$ Server\+Interaction\+::read\+\_\+vector\+\_\+in\+\_\+file (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Функция для чтения векторов из файла 
+
+\begin{DoxyReturn}{Возвращает}
+возвращает массив векторов типа $<$double$>$ 
+\end{DoxyReturn}
+
+
+Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
+\item 
+Server\+Interaction.\+h\item 
+\mbox{\hyperlink{ServerInteraction_8cpp}{Server\+Interaction.\+cpp}}\end{DoxyCompactItemize}

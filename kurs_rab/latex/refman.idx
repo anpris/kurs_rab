@@ -1,0 +1,13 @@
+\indexentry{Cons\_fix@{Cons\_fix}|hyperpage}{7}
+\indexentry{ExceptionManager@{ExceptionManager}|hyperpage}{7}
+\indexentry{ServerInteraction@{ServerInteraction}|hyperpage}{8}
+\indexentry{ServerInteraction@{ServerInteraction}!authenticate@{authenticate}|hyperpage}{9}
+\indexentry{authenticate@{authenticate}!ServerInteraction@{ServerInteraction}|hyperpage}{9}
+\indexentry{ServerInteraction@{ServerInteraction}!getLoginAndPassword@{getLoginAndPassword}|hyperpage}{9}
+\indexentry{getLoginAndPassword@{getLoginAndPassword}!ServerInteraction@{ServerInteraction}|hyperpage}{9}
+\indexentry{ServerInteraction@{ServerInteraction}!perform\_server\_interaction@{perform\_server\_interaction}|hyperpage}{9}
+\indexentry{perform\_server\_interaction@{perform\_server\_interaction}!ServerInteraction@{ServerInteraction}|hyperpage}{9}
+\indexentry{ServerInteraction@{ServerInteraction}!read\_vector\_in\_file@{read\_vector\_in\_file}|hyperpage}{9}
+\indexentry{read\_vector\_in\_file@{read\_vector\_in\_file}!ServerInteraction@{ServerInteraction}|hyperpage}{9}
+\indexentry{main.cpp@{main.cpp}|hyperpage}{11}
+\indexentry{ServerInteraction.cpp@{ServerInteraction.cpp}|hyperpage}{11}
